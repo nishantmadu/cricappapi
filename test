@@ -1,0 +1,7 @@
+curl -X POST -d '{
+    "Description": "Australia won the Toss and elected to bat",
+    "Location": "Mumbai",
+    "Score":234,
+    "TeamA":"India",
+    "TeamB":"Australia"
+}' 'https://cricapi.firebaseio.com/Teams.json'
